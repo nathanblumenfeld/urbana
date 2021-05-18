@@ -214,7 +214,7 @@ function logout_url()
   $params['logout'] = '';
 
   // Add logout param to current page URL.
-  $logout_url = htmlspecialchars($_SERVER['PHP_SELF']) . '?' . http_build_query($params);
+  $logout_url = htmlspecialchars($_SERVER["REQUEST_URI"]) . '?' . http_build_query($params);
 
   return $logout_url;
 }
