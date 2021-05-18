@@ -1,0 +1,12 @@
+{
+  "require": {
+    "php": "~7.4.19",
+    "ext-sqlite3": "*",
+    "ext-pdo_sqlite": "*"
+  },
+  "config": {
+    "platform": {
+      "php": "7.4.19"
+    }
+  }
+}
